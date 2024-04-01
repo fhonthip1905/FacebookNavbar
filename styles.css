@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding-inline: 16px;
+}
+.navbar-left {
+  display: flex;
+  width: 320px;
+  align-items: center;
+  gap: 8px;
+}
+.item-logo {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  flex-grow: 1;
+}
+svg.icon-fb {
+  width: 40px;
+  height: 40px;
+}
+.item-search {
+  display: flex;
+  height: 40px;
+  flex-grow: 1;
+  border-radius: 50px;
+  background-color: whitesmoke;
+}
+.navbar-left .item-search input {
+  display: flex;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 50px;
+  padding-inline: 20px;
+  font-size: 14px;
+  height: 40px;
+  flex-grow: 1;
+}
+
+svg.icon-search {
+  width: 28px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.navbar-center {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 5px 0;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129px;
+  height: 100%;
+}
+.icon-box:hover {
+  background-color: #e3e6ea;
+  border-radius: 8px;
+}
+
+.icon-box svg {
+  display: flex;
+  justify-content: center;
+  height: 56px;
+  width: 22px;
+}
+
+.navbar-rigth {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  min-width: 281px;
+}
+
+.circle-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #e3e6ea;
+}
+.circle-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.circle-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.main-wrap {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.area-left {
+  min-height: 100vh;
+  flex-basis: 348px;
+  border: 1px dashed red;
+}
+.area-center {
+  min-height: 100vh;
+  flex-basis: 680px;
+  border: 1px dashed red;
+}
+.area-rigth {
+  min-height: 100vh;
+  flex-basis: 348px;
+  border: 1px dashed red;
+}
